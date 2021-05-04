@@ -27,9 +27,13 @@ library(modelsummary)
 ## Download some data 
 
 ```{r, cache= TRUE}
-url <- "https://raw.githubusercontent.com/TaddyLab/BDS/master/examples/paidsearch.csv"
+url <- "https://github.com/TaddyLab/BDS/raw/master/examples/paidsearch.csv"
 # where to save data
 out_file <- "data/paid_search.csv"
 # download it!
 download.file(url, destfile = out_file, mode = "wb")
 ```
+
+## A very important set of changes 
+
+heres some new changes that are extremely valuable to this project.
