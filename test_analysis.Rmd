@@ -2,6 +2,7 @@
 title: "A Document About Nothing"
 authors:
     - Lachlan Deer
+    - Hendrik de With
 output: html_document
 ---
 
