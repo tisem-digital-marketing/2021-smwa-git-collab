@@ -1,0 +1,34 @@
+---
+title: "A Document About Nothing"
+authors:
+    - Lachlan Deer
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Library load
+
+```{r, eval = TRUE, message=FALSE, warning=FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(fixest)
+library(broom)
+library(ggplot2)
+library(modelsummary)
+```
+
+
+## Download some data 
+
+```{r, cache= TRUE}
+url <- "https://raw.githubusercontent.com/TaddyLab/BDS/master/examples/paidsearch.csv"
+# where to save data
+out_file <- "data/paid_search.csv"
+# download it!
+download.file(url, destfile = out_file, mode = "wb")
+```
