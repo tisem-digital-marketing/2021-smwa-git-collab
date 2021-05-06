@@ -1,8 +1,8 @@
 ---
 title: "A Document About Nothing"
 authors:
-- Lachlan Deer
-- Hendrik de With
+- Left
+- Right
 output:
   pdf_document: default
   html_document: default
